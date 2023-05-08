@@ -1,5 +1,2 @@
 #!/bin/bash
-
-# This script runs some Python code
-
 python3 -c "$PYCODE"
