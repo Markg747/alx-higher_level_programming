@@ -1,2 +1,2 @@
 #!/bin/bash
-python333 -m py_compile "$PYFILE" -o "$PYFILEc"
+python3 -m compileall $PYFILE; cp __pycache__/*.pyc "${PYFILE}c"; rm -rf ./__pycache__
