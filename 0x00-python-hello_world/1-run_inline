@@ -2,6 +2,4 @@
 
 # This script runs some Python code
 
-python3 - <<END
-print("Hello, World!")
-END
+python3 $PYCODE
